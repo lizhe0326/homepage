@@ -108,6 +108,10 @@ h1 {
     font-size: 2em;
     margin: .67em 0;
 }
+h2 {
+    font-size: 2em;
+    margin: center;
+}
 .layout_page {
     display: flex;
     -webkit-box-align: start;

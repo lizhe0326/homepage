@@ -13,22 +13,7 @@
     <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
-    $(document).ready(function() {
-/*
- *  参数详解:
- *	upTime			上移的时间
- *	downTime		下落的时间
- *	beatHeight		上移高度
- *	isAuth			是否自动
- *	isRotate		是否旋转
-*/
-    $('p#beatText').beatText({isAuth:false,isRotate:false});
-    $('p#rotateText').beatText({isAuth:false,isRotate:true});
-    $('p#autoText').beatText({isAuth:true,beatHeight:"3em",isRotate:false});
-    $('p#roloadText').beatText({isAuth:true,beatHeight:"1em",isRotate:false,upTime:100,downTime:100});
-    $('p#autoRotateText').beatText({isAuth:true,upTime:700,downTime:700,beatHeight:"3em",isRotate:true});
-
-});
+  
     <script type="text/javascript">
         if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
             alert('朋友，上古浏览器不支持呢~');
@@ -116,7 +101,7 @@
                 </div>
                 <article id="page">   
                     <div class="article-container">
-                        <h2 id="autoText>音乐</h2>
+                        <h2 style="text-align: center">音乐</h2>
                         <meting-js
 	          	    preload="none"
 	          	    list-max-height="330px"
@@ -126,7 +111,7 @@
 	                   </meting-js>    
                         <hr>
 
-                        <h2 id="beatText">状态栏</h2>
+                        <h2 style="text-align: center">状态栏</h2>
                         <div class="skillbox">
                             <div class="skillbar">
                                 <div class="skillbar-title"
@@ -180,7 +165,7 @@
                         </div>
 
                         <hr>
-                        <h2 id="rotateText">童心未泯</h2>
+                        <h2 style="text-align: center">童心未泯</h2>
                         <div class="tool">
                             <a href="https://lizhe0326.github.io/firework/" target="_blank" title="锦城满目是烟花，处处红楼卖酒家">烟花模拟器&gt;&gt;</a><br>
 			    <a href="https://haiyong.site/moyu/" target="_blank" title="繁华什锦奈何天,游戏人生若等闲">摸鱼小游戏&gt;&gt;</a><br>
@@ -190,7 +175,7 @@
                         </div>
 
                         <hr>
-                        <h2 id="roloadText">联系方式</h2>
+                        <h2 style="text-align: center">联系方式</h2>
                         <div class="tool">
                             <a href="https://lizhe0326.github.io/wechat" target="_blank" rel="noopener noreferrer">WeChat  </a>
                             <a href="https://t.me/lizhe0326" target="_blank" rel="noopener noreferrer">Telegram  </a>

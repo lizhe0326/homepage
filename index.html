@@ -275,11 +275,13 @@
         document.addEventListener('visibilitychange', function () {
             if (document.hidden) {
                 // $('[rel="icon"]').attr('href', "/funny.ico");
+	        <link rel="icon" href="https://www.google.com/s2/favicons?sz=16&domain=go.itab.link">
                 document.title = '天涯若比邻';
                 clearTimeout(titleTime);
             }
             else {
                 // $('[rel="icon"]').attr('href', "/favicon.ico");
+		<link rel="icon" href="https://www.google.com/s2/favicons?sz=16&domain=go.itab.link">
                 document.title = '✨海内存知己✨' + OriginTitle;
                 titleTime = setTimeout(function () {
                     document.title = OriginTitle;

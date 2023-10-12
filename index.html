@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>✨天地霸唱✨</title>
+    <title>天地霸唱</title>
     <meta name="description" content="开心的折腾，折腾的开心">
     <meta name="keywords" content="个人博客">
     <meta name="format-detection" content="telephone=no">
@@ -275,12 +275,12 @@
         document.addEventListener('visibilitychange', function () {
             if (document.hidden) {
                 $('[rel="icon"]').attr('href', "/funny.ico");
-                document.title = '天涯若比邻';
+                document.title = '相见时难别亦难';
                 clearTimeout(titleTime);
             }
             else {
                 $('[rel="icon"]').attr('href', "/favicon.ico");
-                document.title = '✨海内存知己✨' + OriginTitle;
+                document.title = '难逢伊人梦入环' + OriginTitle;
                 titleTime = setTimeout(function () {
                     document.title = OriginTitle;
                 }, 2000);
